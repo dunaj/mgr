@@ -16,7 +16,7 @@ using namespace std;
 
 int main()
 {
-	Matrix m = Matrix("dpm/DPM_1_f003BMEDc.txt", DPM_LICZBA_KOLUMN, DPM_LICZBA_WIERSZY);
+	Engine::Matrix m = Engine::Matrix("dpm/DPM_1_f003BMEDc.txt", PSK_LICZBA_KOLUMN, PSK_LICZBA_WIERSZY);
 	cout<<m;
 	return 0;
 }

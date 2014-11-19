@@ -9,8 +9,8 @@
 #define MAIN_H_
 
 //Stale dotyczace macierzy podwojnego sredniego kroku
-const int DPM_LICZBA_KOLUMN = 79;
-const int DPM_LICZBA_WIERSZY = 100;
+const int PSK_LICZBA_KOLUMN = 79;
+const int PSK_LICZBA_WIERSZY = 100;
 
 
 #endif /* MAIN_H_ */
