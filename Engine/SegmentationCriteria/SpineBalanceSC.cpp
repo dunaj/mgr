@@ -1,12 +1,12 @@
 /*
- * SegmentationCriterion.cpp
+ * SpineBalanceSC.cpp
  *
  *  Created on: 19-11-2014
  *      Author: Adamek
  */
 
-#include "SegmentationCriterion.h"
+#include "SpineBalanceSC.h"
 
 namespace Engine {
-	// abstract class, no definitions
+
 } /* namespace Engine */

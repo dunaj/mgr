@@ -13,7 +13,7 @@ namespace Engine {
 class SymmetricalModels {
 	Matrix LPSK;
 	Matrix PPSK;
-	SegmentationCriterion & criterion;
+	SegmentationCriteria::SegmentationCriterion & criterion;
 
 };
 

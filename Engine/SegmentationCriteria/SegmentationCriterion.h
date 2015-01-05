@@ -10,10 +10,13 @@
 
 namespace Engine {
 
+namespace SegmentationCriteria {
+
 class SegmentationCriterion {
 	virtual void dziel() = 0;
 	virtual ~SegmentationCriterion() = 0;
 };
 
+} /* namespace SegmentationCriteria
 } /* namespace Engine */
 #endif /* SEGMENTATIONCRITERION_H_ */
