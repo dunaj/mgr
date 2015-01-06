@@ -9,14 +9,20 @@
  *      Author: Adamek
  */
 #include <iostream>
-#include "Matrix.h"
-#include <main.h>
+#include "Engine/Matrix.h"
+#include "main.h"
 
 using namespace std;
 
 int main()
 {
-	Matrix m = Matrix("dpm/DPM_1_f003BMEDc.txt", DPM_LICZBA_KOLUMN, DPM_LICZBA_WIERSZY);
-	cout<<m;
+	//Engine::Matrix m = Engine::Matrix("dpm/DPM_1_f003BMEDc.txt", PSK_LICZBA_KOLUMN, PSK_LICZBA_WIERSZY);
+	//cout<<m;
+	vector<double> v;
+	v.push_back(0.0);
+	v.push_back(1.0);
+	v.push_back(0.0);
+	Engine::FFTCol fv(v);
+	cout<<fv;
 	return 0;
 }

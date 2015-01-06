@@ -7,7 +7,7 @@
 
 #include "Matrix.h"
 #include <fstream>
-
+namespace Engine {
 Matrix::Matrix(const char * fileN, int nC, int nV)
 {
 	this->nCol=nC;
@@ -41,3 +41,5 @@ std::ostream& operator<<(std::ostream& o, const Matrix &mat)
 	}
 	return o;
 }
+
+} //namespace Engine

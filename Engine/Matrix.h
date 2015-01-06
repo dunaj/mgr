@@ -9,10 +9,10 @@
 #define MATRIX_H_
 
 #include <vector>
-#include <ostream>
+#include "FFT.h"
 #include <iostream>
 #include <iomanip>
-
+namespace Engine {
 /**
  * Kolumna jest reprezentowana przez wektor liczb zmiennoprzecinkowych
  */
@@ -54,6 +54,6 @@ public:
 	friend std::ostream & operator<<(std::ostream&, const Matrix &m);
 
 };
-
+} // namespace Engine
 
 #endif /* MATRIX_H_ */
