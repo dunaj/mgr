@@ -7,6 +7,6 @@
 
 #include "SymmetricalModels.h"
 
-namespace Engine {
-
-} /* namespace Engine */
+//namespace Engine {
+//
+//} /* namespace Engine */

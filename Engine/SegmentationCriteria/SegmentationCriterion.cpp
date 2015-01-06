@@ -8,7 +8,8 @@
 #include "SegmentationCriterion.h"
 
 namespace Engine {
-namespace SegmentationCriteria {
+	namespace SegmentationCriteria {
 	// abstract class, no definitions
+	}
 }
-} /* namespace Engine */
+

@@ -9,7 +9,7 @@
 #define MATRIX_H_
 
 #include <vector>
-#include <ostream>
+#include "FFT.h"
 #include <iostream>
 #include <iomanip>
 namespace Engine {

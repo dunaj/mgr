@@ -8,6 +8,8 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#include "Engine/FFT.h"
+
 //Stale dotyczace macierzy podwojnego sredniego kroku
 const int PSK_LICZBA_KOLUMN = 79;
 const int PSK_LICZBA_WIERSZY = 100;

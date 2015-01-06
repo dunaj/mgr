@@ -17,6 +17,6 @@ class SegmentationCriterion {
 	virtual ~SegmentationCriterion() = 0;
 };
 
-} /* namespace SegmentationCriteria
+} // namespace SegmentationCriteria
 } /* namespace Engine */
 #endif /* SEGMENTATIONCRITERION_H_ */

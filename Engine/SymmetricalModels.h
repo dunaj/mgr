@@ -8,12 +8,15 @@
 #ifndef SYMMETRICALMODELS_H_
 #define SYMMETRICALMODELS_H_
 
+#include "Matrix.h"
+#include "SegmentationCriteria/SegmentationCriterion.h"
+
 namespace Engine {
 
 class SymmetricalModels {
 	Matrix LPSK;
 	Matrix PPSK;
-	SegmentationCriteria::SegmentationCriterion & criterion;
+	SegmentationCriteria::SegmentationCriterion& criterion;
 
 };
 

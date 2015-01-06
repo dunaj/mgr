@@ -10,11 +10,9 @@
 
 #include "SegmentationCriterion.h"
 
-namespace Engine {
-
-class SpineBalanceSC: public Engine::SegmentationCriteria::SegmentationCriterion {
+class SpineBalanceSC : public Engine::SegmentationCriteria::SegmentationCriterion
+{
 
 };
 
-} /* namespace Engine */
-#endif /* SPINEBALANCESC_H_ */
+#endif
